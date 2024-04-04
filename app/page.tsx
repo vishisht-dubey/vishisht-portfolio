@@ -3,11 +3,13 @@ import React from "react";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import Details from "../components/Details"
+import PersonalAvatar from "../components/PersonalAvatar"
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center overflow-hidden">
       <Navbar/>
-      <Details/>
+      {/* <Details/> */}
+      <PersonalAvatar/>
       <Footer/>
     </div>
   );
