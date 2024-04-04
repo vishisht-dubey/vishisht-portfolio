@@ -5,7 +5,7 @@ export default function Details() {
 			<h1 className="font-bold text-[50px] tracking-[2px] font-mono mt-16 mb-4">
 				About
 			</h1>
-			<p className=" font-mono tracking-wide text-[22px]">
+			<p className=" font-mono tracking-wide text-[22px] dark:text-gray-400 text-gray-600">
 				YO 🤘🏻, what's up? I am Vishisht Dubey, a student at the Indian Institute of
 				Technology (BHU) Varanasi, and I am passionate about software building
 				and open source and computer science fundamentals.<br/><br/>
