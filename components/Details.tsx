@@ -1,118 +1,29 @@
-import {
-	Accordion,
-	AccordionContent,
-	AccordionItem,
-	AccordionTrigger,
-} from "./ui/accordion";
-import { ScrollArea } from "./ui/scroll-area";
-import { Separator } from "./ui/separator";
-import { Badge } from "./ui/badge";
+import React from "react";
 export default function Details() {
 	return (
-	
-			<div className="mt-4 mb-4 font-mono tracking-wide w-[75%] h-[85vh] overflow-y-auto overflow-x-hidden">
-				<Accordion type="multiple">
-					<AccordionItem value="about">
-						<AccordionTrigger>About Me</AccordionTrigger>
-						<AccordionContent className="dark:text-cyan-300 text-gray-700">
-							Hey, I am Vishisht Dubey, a third-year student pursuing an
-							Integrated Dual Degree (Btech. + Mtech.) at the Indian Institute
-							of Technology (BHU), Varanasi. I have been into computer science
-							since childhood when I downloaded C++ and Game Development ebooks
-							using my 2G network. I started my programming journey with Python
-							and have loved programming ever since. I proceeded in my
-							programming journey by making games like tic-tac-toe and drum
-							play. Then, I moved on to C++, Javascript/Typescript, and Golang.
-							I am proficient in these and can learn new language frameworks
-							quickly. I am an avid learner and am always into new tech and
-							concepts. I recently grew interested in Conway’s Game of Life and
-							implementing it in C++/SDL in my free time. I have been into OSS
-							for some time now, so much so that every software on my laptop is
-							open source (from OS to terminal). When not doing Open Source, I
-							do Competitive Programming, Computer Graphics stuff, Image
-							Processing, and anything Computer Science. I love learning new
-							concepts but can not bear repetition. Once I understand how
-							something is done, implementing it repeatedly is not enjoyable. I
-							am a tech team member of the college’s placement cell, and I guide
-							my fellow juniors in operating systems, web development, and cloud
-							technologies. Apart from tech, I like playing piano, watching
-							movies and web series, and listening to music.
-						</AccordionContent>
-					</AccordionItem>
-					<Separator/>
-					<AccordionItem value="skills">
-						<AccordionTrigger>Skills</AccordionTrigger>
-						<AccordionContent>
-							<div>
-							<h2>Languages</h2>
-							<div>
-							<Badge>C++</Badge>
-							<Badge>Python</Badge>
-							<Badge>Javascript/Typescript</Badge>
-							</div>
-							</div>
-							<div>
-							<h2>Frameworks</h2>
-							<div>
-							<Badge>react.js</Badge>
-							<Badge>express.js</Badge>
-							<Badge>django</Badge>
-							<Badge>tailwind css</Badge>
-							<Badge>next.js</Badge>
-							<Badge>react-redux</Badge>
-							</div>
-							</div>
-							<div>
-								<h2>Tools</h2>
-								<div>
-								<Badge>Docker</Badge>
-								<Badge>Git/Github</Badge>
-								<Badge>Git</Badge>
-								</div>
-							</div>
-						</AccordionContent>
-					</AccordionItem>
-					<Separator/>
-					<AccordionItem value="workExperience">
-						<AccordionTrigger>Work Experience</AccordionTrigger>
-						<AccordionContent>Brief intro about me</AccordionContent>
-					</AccordionItem>
-					<Separator/>
-					<AccordionItem value="projects">
-						<AccordionTrigger>Projects</AccordionTrigger>
-						<AccordionContent>Brief intro about me</AccordionContent>
-					</AccordionItem>
-					<AccordionItem value="aboutuy">
-						<AccordionTrigger>About Me</AccordionTrigger>
-						<AccordionContent className="dark:text-cyan-300 text-gray-700">
-							Hey, I am Vishisht Dubey, a third-year student pursuing an
-							Integrated Dual Degree (Btech. + Mtech.) at the Indian Institute
-							of Technology (BHU), Varanasi. I have been into computer science
-							since childhood when I downloaded C++ and Game Development ebooks
-							using my 2G network. I started my programming journey with Python
-							and have loved programming ever since. I proceeded in my
-							programming journey by making games like tic-tac-toe and drum
-							play. Then, I moved on to C++, Javascript/Typescript, and Golang.
-							I am proficient in these and can learn new language frameworks
-							quickly. I am an avid learner and am always into new tech and
-							concepts. I recently grew interested in Conway’s Game of Life and
-							implementing it in C++/SDL in my free time. I have been into OSS
-							for some time now, so much so that every software on my laptop is
-							open source (from OS to terminal). When not doing Open Source, I
-							do Competitive Programming, Computer Graphics stuff, Image
-							Processing, and anything Computer Science. I love learning new
-							concepts but can not bear repetition. Once I understand how
-							something is done, implementing it repeatedly is not enjoyable. I
-							am a tech team member of the college’s placement cell, and I guide
-							my fellow juniors in operating systems, web development, and cloud
-							technologies. Apart from tech, I like playing piano, watching
-							movies and web series, and listening to music.
-						</AccordionContent>
-					</AccordionItem>
-					<Separator/>
-				</Accordion>
-				
-			</div>
-
+		<div className="mt-4 mb-4 w-[75%] h-[85vh] overflow-y-auto overflow-x-hidden">
+			<h1 className="font-bold text-[50px] tracking-[2px] font-mono mt-16 mb-4">
+				About
+			</h1>
+			<p className=" font-mono tracking-wide text-[22px]">
+				YO 🤘🏻, what's up? I am Vishisht Dubey, a student at the Indian Institute of
+				Technology (BHU) Varanasi, and I am passionate about software building
+				and open source and computer science fundamentals.<br/><br/>
+				I started my programming journey with python and have loved programming ever since. I
+				proceeded in my programming journey by making games like tic-tac-toe and
+				drum play. Later, I contributed to the tech-team of the training and
+				placement cell of my clg. After that, I contributed to a couple of
+				startups like <a  href="https://www.linkedin.com/company/mquotient/about/" target="_blank" className="dark:text-emerald-400 text-emerald-500">mquotient</a>,<a href="https://www.linkedin.com/company/talentedhippo/" target="_blank" className="dark:text-emerald-400 text-emerald-500">talentedHippo</a> and also contributed to tech-team of <a  href="https://www.linkedin.com/company/ecelliitbhu/" target="_blank" className="dark:text-emerald-400 text-emerald-500">E-Cell</a>. I am learning about
+				cloud technologies like Docker, Kubernetes, and Terraform, and I also
+				learned a bit about the Azure cloud. I am familiar with
+				javascript/typescript, reactjs, expressjs, python, django and
+				react-redux. I love to build scalable web applications.
+				<br/><br/> I learn about
+				data structures and algorithms in my free time, and my preferred
+				language is C++.<br/><br/>I'm always looking to collaborate on interesting
+				projects and exciting work opportunities. Get in touch or Ask me
+				Anything on <a href="https://www.instagram.com/vishisht_dubey/" target="_blank" className="dark:text-emerald-400 text-emerald-500">Instagram</a>. You can also contact me through <a href="mailto:dubey08vishisht@gmail.com" target="_blank" className="dark:text-emerald-400 text-emerald-500">Email</a>.
+			</p>
+		</div>
 	);
 }
